@@ -4,12 +4,6 @@ module.exports = (lineman) ->
   config:
     loadNpmTasks: baseConfig.loadNpmTasks.concat('grunt-manifest')
 
-    prependTasks:
-      dev: baseConfig.prependTasks.dev.concat('manifest:dev')
-
-    appendTasks:
-      dist: baseConfig.appendTasks.dist.concat('manifest:dist')
-
     manifest:
       dev:
         options:
@@ -34,10 +28,10 @@ module.exports = (lineman) ->
         src: '<%= files.manifest.source %>'
         dest: 'dist/<%= files.manifest.appcache %>'
 
-    watch:
-      manifest:
-        files: [
-          'generated/**/*.*'
-          '!generated/manifest.appcache'
-        ]
-        tasks: ['manifest:dev']
+    # watch:
+    #   manifest:
+    #     files: [
+    #       'generated/**/*.*'
+    #       '!generated/manifest.appcache'
+    #     ]
+    #     tasks: ['manifest:dev']

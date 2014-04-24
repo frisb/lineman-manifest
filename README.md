@@ -3,12 +3,11 @@ lineman-manifest
 
 [![npm status badge](https://nodei.co/npm/lineman-manifest.png?stars=true&downloads=true)](https://nodei.co/npm/lineman-manifest/)
 
-This is an application cache manifest plugin for
-
-[Lineman](http://linemanjs.com).
+This is an application cache manifest plugin for [Lineman](http://linemanjs.com).
 
 lineman-manifest is a work in progress and functionality and examples will be provided shortly.
-It is based on the [grunt-manifest](https://github.com/gunta/grunt-manifest) plugin by Gunther Brunner.
+
+it is based on the [grunt-manifest](https://github.com/gunta/grunt-manifest) plugin by Gunther Brunner.
 
 contributions are welcome of course.
 
